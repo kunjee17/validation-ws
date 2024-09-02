@@ -1,0 +1,23 @@
+{
+  "name": "bench_test",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/validator": "^13.12.1",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.1",
+    "vite-plugin-top-level-await": "^1.4.4",
+    "vite-plugin-wasm": "^3.3.0"
+  },
+  "dependencies": {
+    "tinybench": "^2.9.0",
+    "validator": "^13.12.0",
+    "validation-ws" : "file:../pkg"
+  }
+}
